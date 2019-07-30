@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>小贷测试平台</title>
+</head>
+<body>
+<div>
+
+<h1>小贷测试平台</h1>
+
+<form method="post" action="/login/">
+    {% csrf_token %}
+    <br><a>&nbsp;&nbsp;用户名：</a> <input name="username" type="text" placeholder="test" >
+    <br><br> <a>&nbsp;&nbsp;密 &nbsp;&nbsp; 码：</a> <input name="password" type="password" placeholder="test123456">
+    <br>{{ error }}<br>
+    &nbsp; <button style="width:220px;height:28px;" id="submit" type="submit">登 录</button>
+</form>
+</div>
+</body>
+</html>
