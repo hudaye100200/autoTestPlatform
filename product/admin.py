@@ -5,6 +5,7 @@ from django.contrib import admin
 from apptest.models import Appcase
 from autotest.apitest.models import Apis
 from product.models import Product
+from webtest.models import Webcase
 
 
 # class ProductAdmin(admin.ModelAdmin):
@@ -20,10 +21,18 @@ class AppcaseAdmin(admin.TabularInline):
     model = Appcase
     extra = 1
 
+class WebcaseAdmin(admin.TabularInline):
+    list_display = ['webcasename', 'webtestresult','create_time','id','product']
+    model = Webcase
+    extra = 1
+
 class ProductAdmin(admin.ModelAdmin):
     list_display = ['productname', 'productdesc','create_time','id']
-    inlines = [ApisAdmin, AppcaseAdmin ]
+    inlines = [ApisAdmin, AppcaseAdmin,WebcaseAdmin]
 
+# class ProductAdmin(admin.ModelAdmin):
+#     list_display = ['productname', 'productdesc','create_time','id']
+#     inlines = [WebcaseAdmin]
 
 # class ProductAdmin(admin.ModelAdmin):
 #     list_display = ['productname', 'productdesc','create_time','id']

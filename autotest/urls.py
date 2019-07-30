@@ -21,6 +21,7 @@ from autotest.apitest import views
 from bug import bugviews
 from product import proviews
 from set import setviews
+from webtest import webviews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -37,4 +38,6 @@ urlpatterns = [
     path('user/', setviews.set_user),
     path('appcase_manage/', appviews.appcase_manage),
     path('appcasestep_manage/', appviews.appcasestep_manage),
+    path('webcase_manage/', webviews.webcase_manage),
+    path('webcasestep_manage/', webviews.webcasestep_manage),
 ]
