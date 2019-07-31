@@ -62,5 +62,12 @@
 </div>
 </div>
 
+<td>{% if apistep.apistatus == 1 %}
+<a style='color:green'>{{ apistep.apistatus }}</a>
+{% else %}
+<a style='color:red'>{{ apistep.apistatus }}</a>
+{% endif %}
+</td>
+
 </body>
 </html>

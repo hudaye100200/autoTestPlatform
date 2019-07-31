@@ -52,6 +52,14 @@
 </table>
 </div>
 </div>
+<td>{% if apitest.apitestresult == 1 %}
+<a style='color:green'>{{ apitest.apitestresult }}</a>
+{% else %}
+<a style='color:red'>{{ apitest.apitestresult }}</a>
+{% endif %}
+</td>
+
+
 
 </body>
 </html>
