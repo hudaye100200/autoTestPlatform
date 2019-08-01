@@ -765,17 +765,19 @@ class HTMLTestRunner(Template_mixin):
             # uo = unicode(o.encode('string_escape'))
             uo = o
         else:
-            uo = o
+            uo = o.decode('utf-8')
         if isinstance(e,str):
             # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # ue = unicode(e.encode('string_escape'))
             ue = e
         else:
-            ue = e
+            ue = e.decode('utf-8')
 
         script = self.REPORT_TEST_OUTPUT_TMPL % dict(
             id = tid,
             output = saxutils.escape(uo+ue),
+            #xml.sax.saxutils.escape(data, entities={})在数据字符串中转义 &，< 和 >。您可以通过传递字典作为可选的 entities 参数来转义其他数据字符串。
+            # 键和值都必须是字符串；每个键将被其相应的值替换。即使提供 entities，字符 '&'，'<' 和 '>' 也总是转义。
         )
 
         row = tmpl % dict(

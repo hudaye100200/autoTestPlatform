@@ -14,29 +14,29 @@ from idlelib.rpc import response_queue
 HOSTNAME = '127.0.0.1'
 
 
-# class ApiFlow(unittest.TestCase):
-#     """登录支付购物接口流程"""
-#     def setUp(self):
-#
-#         time.sleep(1)
-#     def test_readSQLcase(self):
-#         sql="SELECT id,`apiname`,apiurl,apimethod,apiparamvalue,apiresult,`apistatus` from apitest_apistep where apitest_apistep.Apitest_id=2 "
-#         coon = pymysql.connect(user='root',passwd='100200',db='autotest',port=3306,host='127.0.0.1',charset='utf8')
-#         cursor = coon.cursor()
-#         aa=cursor.execute(sql)
-#         info = cursor.fetchmany(aa)
-#         print (info)
-#         for ii in info:
-#             case_list = []
-#             case_list.append(ii)
-#         # CredentialId()
-#             interfaceTest(case_list)
-#         coon.commit()
-#         cursor.close()
-#         coon.close()
-#
-#     def tearDown(self):
-#         time.sleep(1)
+class ApiFlow(unittest.TestCase):
+    """登录支付购物接口流程"""
+    def setUp(self):
+        time.sleep(1)
+
+    def test_readSQLcase(self):
+        sql="SELECT id,`apiname`,apiurl,apimethod,apiparamvalue,apiresult,`apistatus` from apitest_apistep where apitest_apistep.Apitest_id=2 "
+        coon = pymysql.connect(user='root',passwd='100200',db='autotest',port=3306,host='127.0.0.1',charset='utf8')
+        cursor = coon.cursor()
+        aa=cursor.execute(sql)
+        info = cursor.fetchmany(aa)
+        print (info)
+        for ii in info:
+            case_list = []
+            case_list.append(ii)
+        # CredentialId()
+            interfaceTest(case_list)
+        coon.commit()
+        cursor.close()
+        coon.close()
+
+    def tearDown(self):
+        time.sleep(1)
 
 
 def readSQLcase(): #读取数据库中相应的接口用例数据
@@ -80,15 +80,15 @@ def interfaceTest(case_list):
             new_url = 'http://'+url
         else:
             url = strinfo.sub(TaskId,url)
-        param = strinfo.sub(TaskId,param)
-        param = tasknoinfo.sub(taskno,param)
-        new_url = 'http://'+'127.0.0.1'+url
-        request_urls.append(new_url)
+            param = strinfo.sub(TaskId,param)
+            param = tasknoinfo.sub(taskno,param)
+            new_url = 'http://'+'127.0.0.1'+url
+            request_urls.append(new_url)
         if method.upper() == 'GET':
             headers = {'Authorization':'', 'Content-Type': 'application/json' }
             if "=" in urlParam(param):
                 data = None
-                print (str(case_id)+' request is get' +new_url.encode('utf-8')+'?'+urlParam(param).encode('utf-8'))
+                print (str(case_id)+' request is get' +new_url+'?'+urlParam(param).encode('utf-8'))
                 results = requests.get(new_url+'?'+urlParam(param),data,headers=headers).text
                 print (' response is get'+results.encode('utf-8'))
                 responses.append(results)
@@ -111,7 +111,7 @@ def interfaceTest(case_list):
         if method.upper()=='PUT':
             headers = {'Host':HOSTNAME, 'Connection':'keep-alive', 'CredentialId':id, 'Content-Type': 'application/json'}
             body_data=param
-            results = requests.put(url=url,data=body_data,headers=headers)
+            results = requests.put(url=url,data=body_data,headers=headers).text
             responses.append(results)
             res = readRes(results,res_check)
             if 'pass' == res:
@@ -151,7 +151,7 @@ def interfaceTest(case_list):
                     responses.append(results)
                     res = readRes(results,'')
                 else:
-                    print (str(case_id)+' request is ' +new_url.encode('utf-8')+' body is '+urlParam(param).encode('utf-8'))
+                    print (str(case_id)+' request is ' +new_url+' body is '+urlParam(param).encode('utf-8'))
                     results = requests.post(new_url,data=urlParam(param).encode('utf-8'),headers=headers).text
                     print (' response is post'+results.encode('utf-8'))
                     responses.append(results)
@@ -229,20 +229,19 @@ def writeResult(case_id,result):
     coon.commit()
     cursor.close()
     coon.close()
-
-def writeBug(bug_id,interface_name,request,response,res_check):
+# bug编号, 接口名字, 请求的url地址, 响应数据, 要校验的数据
+def writeBug(bug_id,interface_name,req_url,response,res_check):
     interface_name = interface_name.encode('utf-8')
     res_check = res_check.encode('utf-8')
-    request = request.encode('utf-8')
+    req_url = req_url.encode('utf-8')
     now = time.strftime("%Y-%m-%d %H:%M:%S")
     bugname = str(bug_id)+ '_' + interface_name.decode() + '_出错了'
 
-    bugdetail = '[请求数据]<br />'+request.decode()+'<br/>'+'[预期结果]<br/>'+res_ check.decode()+'<br/>'+'<br/>'+'[响应数据]<br />'+'<br/>'+response.decode()
+    bugdetail = '[请求数据]<br />'+ req_url.decode() + '<br/>' + '[预期结果]<br/>'+ res_check.decode() + '<br/>' + '<br/>' + '[响应数据]<br />'+'<br/>'+response.decode()
     print (bugdetail)
 
-    sql = "INSERT INTO `bug_bug` ("\ 
-    "`bugname`,`bugdetail`,`bugstatus`,`buglevel`, `bugcreater`, `bugassign`,`created_time`,`Product_id`) "\ 
-    "VALUES ('%s','%s','1','1','huhu', 'huhu', '%s', '2');"%(bugname,pymysql.escape_string(bugdetail),now)
+    sql = "INSERT INTO `bug_bug` (`bugname`,`bugdetail`,`bugstatus`,`buglevel`, `bugcreater`, `bugassign`,`created_time`,`Product_id`) VALUES ('%s','%s','1','1','huhu', 'huhu', '%s', '2');"%(bugname,pymysql.escape_string(bugdetail),now)
+    # sql1 = "insert into `bug_bug`(bugname,bugdetail,bugstatus,buglevel, bugcreater, bugassign,created_time,Product_id) value ('{}',)"
     coon = pymysql.connect(user='root',passwd='100200',db='autotest',port=3306,host='127.0.0.1',charset='utf8')
     cursor = coon.cursor()
     cursor.execute(sql)
@@ -250,18 +249,19 @@ def writeBug(bug_id,interface_name,request,response,res_check):
     cursor.close()
     coon.close()
 if __name__ == '__main__':
-    readSQLcase()
-    print ('Done!')
-    time.sleep(1)
-
-    # time.sleep(1)
-    # now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
-    # testunit = unittest.TestSuite()
-    # testunit.addTest(Search("test_readSQLcase1"))
-    # testunit.addTest(Search("test_readSQLcase2"))
-    # filename="C:\\Users\\zh\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\autotest\\webtest\\templates\\"+"webtest_report.html"
-    # fp=open(filename,'wb')
-    # runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u"web自动化测试报告", description=u"搜索测试用例")
-    # runner.run(testunit)
+    # readSQLcase()
     # print ('Done!')
     # time.sleep(1)
+
+    time.sleep(1)
+    now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+    testunit = unittest.TestSuite()
+    testunit.addTest(ApiFlow("test_readSQLcase"))
+    # testunit.addTest(Search("test_readSQLcase1"))
+    # testunit.addTest(Search("test_readSQLcase2"))
+    filename="E:\\pythoncode\\Frame\\autotest\\templates\\"+"webtest_report.html"
+    fp=open(filename,'wb')
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u"web自动化测试报告", description=u"搜索测试用例")
+    runner.run(testunit)
+    print ('Done!')
+    time.sleep(1)

@@ -13,6 +13,13 @@ import os
 
 def getConfig(section, key):
     config = ConfigParser()
-    path = os.path.split(os.path.realpath(__file__))[0] + '/settins.conf'
+    path = os.path.split(os.path.realpath(__file__))[0] + '\setting.conf'
+    print(path)
     config.read(path)
+    print(config.read(path))
     return config.get(section, key)
+
+
+if __name__ == '__main__':
+    a = getConfig('database','db')
+    print(a)
