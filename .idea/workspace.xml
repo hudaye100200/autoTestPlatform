@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8e5f1f-c535-4cf3-a01c-f58fdca2e9c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appauto_testcase3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webauto_testcase3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptest/appviews.py" beforeDir="false" afterPath="$PROJECT_DIR$/apptest/appviews.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,15 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autotest/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autotest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,10 +62,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appauto_testcase3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="176" column="20" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
+            <state relative-caret-position="400">
+              <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webauto_testcase3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/appcasestep_manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="575">
+              <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -154,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="C:/Evns/py3env/Lib/site-packages/django/db/backends/mysql/base.py" />
         <option value="C:/Evns/py3env/Lib/site-packages/django/db/backends/mysql/operations.py" />
         <option value="$PROJECT_DIR$/product/models.py" />
         <option value="$PROJECT_DIR$/autotest/product/admin.py" />
@@ -202,17 +201,17 @@
         <option value="$PROJECT_DIR$/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/apiauto_testcase3.py" />
         <option value="$PROJECT_DIR$/autotest/settings.py" />
-        <option value="$PROJECT_DIR$/appauto_testcase3.py" />
         <option value="$PROJECT_DIR$/apptest/appviews.py" />
         <option value="$PROJECT_DIR$/autotest/urls.py" />
+        <option value="$PROJECT_DIR$/appauto_testcase3.py" />
+        <option value="$PROJECT_DIR$/webauto_testcase3.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="19" />
     <option name="width" value="993" />
-    <option name="height" value="993" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -228,21 +227,6 @@
             <path>
               <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
               <item name="autotest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="apptest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,7 +383,7 @@
       <workItem from="1564393490592" duration="7506000" />
       <workItem from="1564453287742" duration="4931000" />
       <workItem from="1564466474799" duration="231000" />
-      <workItem from="1564466776002" duration="42920000" />
+      <workItem from="1564466776002" duration="44700000" />
     </task>
     <task id="LOCAL-00001" summary="web模块">
       <created>1564488079290</created>
@@ -422,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564628128685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="appUI测试报告,记录参考">
+      <created>1564635324061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564635324061</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58921000" />
+    <option name="totallyTimeSpent" value="60701000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -438,10 +429,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="35" width="993" height="993" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12100213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -454,7 +445,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32988358" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50281847" side_tool="true" weight="0.27527407" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50281847" side_tool="true" weight="0.27473807" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4971815" weight="0.27180785" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -494,7 +485,8 @@
     <MESSAGE value="web模块" />
     <MESSAGE value="生成测试报告 试验" />
     <MESSAGE value="生成测试报告成功啦." />
-    <option name="LAST_COMMIT_MESSAGE" value="生成测试报告成功啦." />
+    <MESSAGE value="appUI测试报告,记录参考" />
+    <option name="LAST_COMMIT_MESSAGE" value="appUI测试报告,记录参考" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -513,9 +505,6 @@
     <SUITE FILE_PATH="coverage/autotest$config.coverage" NAME="config Coverage Results" MODIFIED="1564625823196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autotest/apitest/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/product/proviews.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -898,16 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appauto_testcase3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="176" column="20" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autotest/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
@@ -930,10 +909,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/appcasestep_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="575">
+          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appauto_testcase3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webauto_testcase3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
