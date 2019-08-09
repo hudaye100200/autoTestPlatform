@@ -21,7 +21,7 @@ class Search(unittest.TestCase):
 
     def test_readSQLcase1(self): #流程的相关接口
         sql="SELECT id,webfindmethod,webevelement,weboptmethod,webtestdata,webassertdata,`webtestresult` from webtest_webcasestep where webtest_webcasestep.Webcase_id=1 ORDER BY id ASC "
-        coon = pymysql.connect(user='root',passwd='test123456',db='autotest',port=3306,host=config.getConfig("database", "host"),charset='utf8')
+        coon = pymysql.connect(user='root',passwd='100200',db='autotest',port=3306,host=config.getConfig("database", "host"),charset='utf8')
         cursor = coon.cursor()
         aa=cursor.execute(sql)
         info = cursor.fetchmany(aa)
@@ -35,7 +35,7 @@ class Search(unittest.TestCase):
 
     def test_readSQLcase2(self): #流程的相关接口
         sql="SELECT id,webfindmethod,webevelement,weboptmethod,webtestdata,webassertdata,`webtestresult` from webtest_webcasestep where webtest_webcasestep.Webcase_id=2 ORDER BY id ASC "
-        coon = pymysql.connect(user='root',passwd='test123456',db='autotest',port=3306,host=config.getConfig("database", "host"),charset='utf8')
+        coon = pymysql.connect(user='root',passwd='100200',db='autotest',port=3306,host=config.getConfig("database", "host"),charset='utf8')
         cursor = coon.cursor()
         aa=cursor.execute(sql)
         info = cursor.fetchmany(aa)

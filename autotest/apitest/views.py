@@ -73,3 +73,6 @@ def test_report(request):
     apis_fail_count = [row[0] for row in cursor.fetchmany(bb)][0]
     db.close()
     return render(request, "report.html", {"user": username,"apiss": apis_list,"apiscounts": apis_count,"apis_pass_counts": apis_pass_count,"apis_fail_counts": apis_fail_count}) #把值赋给apiscounts变量
+
+def left(request):
+    return render(request,"left.html")

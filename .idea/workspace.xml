@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8e5f1f-c535-4cf3-a01c-f58fdca2e9c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webauto_testcase3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/left.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/apitest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/apitest/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/apis_manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/apis_manage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/apistep_manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/apistep_manage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/apitest_manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/apitest_manage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webauto_testcase3.py" beforeDir="false" afterPath="$PROJECT_DIR$/webauto_testcase3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autotest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+            <state relative-caret-position="510">
+              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
               </folding>
@@ -43,15 +50,123 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autotest/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/autotest/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/apistep_manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding>
+                <element signature="e#351#357#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/apis_manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding>
+                <element signature="e#354#360#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#477#483#0#HTML" expanded="true" />
+                <element signature="e#483#489#0#HTML" expanded="true" />
+                <element signature="e#489#495#0#HTML" expanded="true" />
+                <element signature="e#495#501#0#HTML" expanded="true" />
+                <element signature="e#501#507#0#HTML" expanded="true" />
+                <element signature="e#507#513#0#HTML" expanded="true" />
+                <element signature="e#513#519#0#HTML" expanded="true" />
+                <element signature="e#519#525#0#HTML" expanded="true" />
+                <element signature="e#525#531#0#HTML" expanded="true" />
+                <element signature="e#531#537#0#HTML" expanded="true" />
+                <element signature="e#537#543#0#HTML" expanded="true" />
+                <element signature="e#543#549#0#HTML" expanded="true" />
+                <element signature="e#549#555#0#HTML" expanded="true" />
+                <element signature="e#555#561#0#HTML" expanded="true" />
+                <element signature="e#563#569#0#HTML" expanded="true" />
+                <element signature="e#569#575#0#HTML" expanded="true" />
+                <element signature="e#575#581#0#HTML" expanded="true" />
+                <element signature="e#581#587#0#HTML" expanded="true" />
+                <element signature="e#587#593#0#HTML" expanded="true" />
+                <element signature="e#593#599#0#HTML" expanded="true" />
+                <element signature="e#599#605#0#HTML" expanded="true" />
+                <element signature="e#605#611#0#HTML" expanded="true" />
+                <element signature="e#611#617#0#HTML" expanded="true" />
+                <element signature="e#617#623#0#HTML" expanded="true" />
+                <element signature="e#623#629#0#HTML" expanded="true" />
+                <element signature="e#629#635#0#HTML" expanded="true" />
+                <element signature="e#635#641#0#HTML" expanded="true" />
+                <element signature="e#641#647#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#734#740#0#HTML" expanded="true" />
+                <element signature="e#740#746#0#HTML" expanded="true" />
+                <element signature="e#746#752#0#HTML" expanded="true" />
+                <element signature="e#752#758#0#HTML" expanded="true" />
+                <element signature="e#758#764#0#HTML" expanded="true" />
+                <element signature="e#764#770#0#HTML" expanded="true" />
+                <element signature="e#770#776#0#HTML" expanded="true" />
+                <element signature="e#776#782#0#HTML" expanded="true" />
+                <element signature="e#782#788#0#HTML" expanded="true" />
+                <element signature="e#788#794#0#HTML" expanded="true" />
+                <element signature="e#794#800#0#HTML" expanded="true" />
+                <element signature="e#800#806#0#HTML" expanded="true" />
+                <element signature="e#806#812#0#HTML" expanded="true" />
+                <element signature="e#812#818#0#HTML" expanded="true" />
+                <element signature="e#820#826#0#HTML" expanded="true" />
+                <element signature="e#826#832#0#HTML" expanded="true" />
+                <element signature="e#832#838#0#HTML" expanded="true" />
+                <element signature="e#838#844#0#HTML" expanded="true" />
+                <element signature="e#844#850#0#HTML" expanded="true" />
+                <element signature="e#850#856#0#HTML" expanded="true" />
+                <element signature="e#856#862#0#HTML" expanded="true" />
+                <element signature="e#862#868#0#HTML" expanded="true" />
+                <element signature="e#868#874#0#HTML" expanded="true" />
+                <element signature="e#874#880#0#HTML" expanded="true" />
+                <element signature="e#880#886#0#HTML" expanded="true" />
+                <element signature="e#886#892#0#HTML" expanded="true" />
+                <element signature="e#892#898#0#HTML" expanded="true" />
+                <element signature="e#898#904#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/apitest_manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1175">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#351#357#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autotest/apitest/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="721">
+              <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -60,10 +175,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appauto_testcase3.py">
+        <entry file="file://$PROJECT_DIR$/webauto_testcase3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="775">
+              <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
               </folding>
@@ -71,56 +186,49 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webauto_testcase3.py">
+        <entry file="file://$PROJECT_DIR$/templates/left.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="1075">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
-                <element signature="e#24#33#0" expanded="true" />
+                <element signature="e#341#347#1#HTML" expanded="true" />
+                <element signature="e#367#373#1#HTML" expanded="true" />
+                <element signature="e#393#399#1#HTML" expanded="true" />
+                <element signature="e#419#425#1#HTML" expanded="true" />
+                <element signature="e#494#500#0#HTML" expanded="true" />
+                <element signature="e#500#506#0#HTML" expanded="true" />
+                <element signature="e#536#542#1#HTML" expanded="true" />
+                <element signature="e#636#642#1#HTML" expanded="true" />
+                <element signature="e#711#717#0#HTML" expanded="true" />
+                <element signature="e#717#723#0#HTML" expanded="true" />
+                <element signature="e#753#759#1#HTML" expanded="true" />
+                <element signature="e#828#834#0#HTML" expanded="true" />
+                <element signature="e#834#840#0#HTML" expanded="true" />
+                <element signature="e#874#880#1#HTML" expanded="true" />
+                <element signature="e#949#955#0#HTML" expanded="true" />
+                <element signature="e#955#961#0#HTML" expanded="true" />
+                <element signature="e#995#1001#1#HTML" expanded="true" />
+                <element signature="e#1101#1107#0#HTML" expanded="true" />
+                <element signature="e#1107#1113#0#HTML" expanded="true" />
+                <element signature="e#1147#1153#1#HTML" expanded="true" />
+                <element signature="e#1247#1253#1#HTML" expanded="true" />
+                <element signature="e#1353#1359#0#HTML" expanded="true" />
+                <element signature="e#1359#1365#0#HTML" expanded="true" />
+                <element signature="e#1395#1401#1#HTML" expanded="true" />
+                <element signature="e#1495#1501#1#HTML" expanded="true" />
+                <element signature="e#1601#1607#0#HTML" expanded="true" />
+                <element signature="e#1607#1613#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apptest/appviews.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/appcasestep_manage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -135,8 +243,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -154,13 +262,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="C:/Evns/py3env/Lib/site-packages/django/db/backends/mysql/operations.py" />
         <option value="$PROJECT_DIR$/product/models.py" />
         <option value="$PROJECT_DIR$/autotest/product/admin.py" />
         <option value="$PROJECT_DIR$/autotest/product/models.py" />
         <option value="$PROJECT_DIR$/product/proviews.py" />
         <option value="$PROJECT_DIR$/templates/apistep.html" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/autotest/apitest/models.py" />
         <option value="$PROJECT_DIR$/autotest/apitest/admin.py" />
@@ -170,7 +276,6 @@
         <option value="$PROJECT_DIR$/bug/bugviews.py" />
         <option value="$PROJECT_DIR$/templates/set_manage.html" />
         <option value="$PROJECT_DIR$/set/views.py" />
-        <option value="$PROJECT_DIR$/templates/apis_manage.html" />
         <option value="$PROJECT_DIR$/templates/set_user.html" />
         <option value="$PROJECT_DIR$/apptest/models.py" />
         <option value="$PROJECT_DIR$/apptest/admin.py" />
@@ -190,10 +295,7 @@
         <option value="$PROJECT_DIR$/webtest/views.py" />
         <option value="$PROJECT_DIR$/templates/webcasestep_manage.html" />
         <option value="$PROJECT_DIR$/templates/product_manage.html" />
-        <option value="$PROJECT_DIR$/autotest/apitest/views.py" />
         <option value="$PROJECT_DIR$/templates/report.html" />
-        <option value="$PROJECT_DIR$/templates/apitest_manage.html" />
-        <option value="$PROJECT_DIR$/templates/apistep_manage.html" />
         <option value="$PROJECT_DIR$/setting.conf.py" />
         <option value="$PROJECT_DIR$/setting.conf" />
         <option value="$PROJECT_DIR$/check.py" />
@@ -202,16 +304,22 @@
         <option value="$PROJECT_DIR$/apiauto_testcase3.py" />
         <option value="$PROJECT_DIR$/autotest/settings.py" />
         <option value="$PROJECT_DIR$/apptest/appviews.py" />
-        <option value="$PROJECT_DIR$/autotest/urls.py" />
         <option value="$PROJECT_DIR$/appauto_testcase3.py" />
         <option value="$PROJECT_DIR$/webauto_testcase3.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/autotest/apitest/views.py" />
+        <option value="$PROJECT_DIR$/autotest/urls.py" />
+        <option value="$PROJECT_DIR$/templates/apis_manage.html" />
+        <option value="$PROJECT_DIR$/templates/apitest_manage.html" />
+        <option value="$PROJECT_DIR$/templates/apistep_manage.html" />
+        <option value="$PROJECT_DIR$/templates/left.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="19" />
-    <option name="width" value="993" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1030" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -227,6 +335,22 @@
             <path>
               <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
               <item name="autotest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="apitest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,7 +507,8 @@
       <workItem from="1564393490592" duration="7506000" />
       <workItem from="1564453287742" duration="4931000" />
       <workItem from="1564466474799" duration="231000" />
-      <workItem from="1564466776002" duration="44700000" />
+      <workItem from="1564466776002" duration="45415000" />
+      <workItem from="1565316477568" duration="6643000" />
     </task>
     <task id="LOCAL-00001" summary="web模块">
       <created>1564488079290</created>
@@ -413,11 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564635324061</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WebUI测试报告,代码记录参考  以后用到再优化吧">
+      <created>1564639568316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564639568316</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60701000" />
+    <option name="totallyTimeSpent" value="68059000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -429,10 +561,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1030" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12100213" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1742268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -446,7 +577,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32988358" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50281847" side_tool="true" weight="0.27473807" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4971815" weight="0.27180785" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4971815" visible="true" weight="0.271632" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -486,7 +617,8 @@
     <MESSAGE value="生成测试报告 试验" />
     <MESSAGE value="生成测试报告成功啦." />
     <MESSAGE value="appUI测试报告,记录参考" />
-    <option name="LAST_COMMIT_MESSAGE" value="appUI测试报告,记录参考" />
+    <MESSAGE value="WebUI测试报告,代码记录参考  以后用到再优化吧" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebUI测试报告,代码记录参考  以后用到再优化吧" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,16 +637,6 @@
     <SUITE FILE_PATH="coverage/autotest$config.coverage" NAME="config Coverage Results" MODIFIED="1564625823196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/product/proviews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autotest/apitest/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -562,13 +684,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/apis_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -735,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -770,17 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/apistep_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
@@ -795,31 +892,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/check.py" />
     <entry file="file://$PROJECT_DIR$/setting.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/apitest_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,13 +910,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templateswebtest_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templateswebtest_report.html" />
     <entry file="file://$PROJECT_DIR$/apiauto_testcase3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -850,56 +921,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autotest/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autotest/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/report.html">
+    <entry file="file://$PROJECT_DIR$/appauto_testcase3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/webtest_report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autotest/apitest/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="775">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autotest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apptest/appviews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="350">
           <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -909,30 +946,202 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/appcasestep_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1325">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appauto_testcase3.py">
+    <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="350">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/webtest_report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webauto_testcase3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
           <folding>
             <element signature="e#23#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webauto_testcase3.py">
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="50">
+          <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/apitest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding>
-            <element signature="e#24#33#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/apis_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#354#360#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#477#483#0#HTML" expanded="true" />
+            <element signature="e#483#489#0#HTML" expanded="true" />
+            <element signature="e#489#495#0#HTML" expanded="true" />
+            <element signature="e#495#501#0#HTML" expanded="true" />
+            <element signature="e#501#507#0#HTML" expanded="true" />
+            <element signature="e#507#513#0#HTML" expanded="true" />
+            <element signature="e#513#519#0#HTML" expanded="true" />
+            <element signature="e#519#525#0#HTML" expanded="true" />
+            <element signature="e#525#531#0#HTML" expanded="true" />
+            <element signature="e#531#537#0#HTML" expanded="true" />
+            <element signature="e#537#543#0#HTML" expanded="true" />
+            <element signature="e#543#549#0#HTML" expanded="true" />
+            <element signature="e#549#555#0#HTML" expanded="true" />
+            <element signature="e#555#561#0#HTML" expanded="true" />
+            <element signature="e#563#569#0#HTML" expanded="true" />
+            <element signature="e#569#575#0#HTML" expanded="true" />
+            <element signature="e#575#581#0#HTML" expanded="true" />
+            <element signature="e#581#587#0#HTML" expanded="true" />
+            <element signature="e#587#593#0#HTML" expanded="true" />
+            <element signature="e#593#599#0#HTML" expanded="true" />
+            <element signature="e#599#605#0#HTML" expanded="true" />
+            <element signature="e#605#611#0#HTML" expanded="true" />
+            <element signature="e#611#617#0#HTML" expanded="true" />
+            <element signature="e#617#623#0#HTML" expanded="true" />
+            <element signature="e#623#629#0#HTML" expanded="true" />
+            <element signature="e#629#635#0#HTML" expanded="true" />
+            <element signature="e#635#641#0#HTML" expanded="true" />
+            <element signature="e#641#647#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#734#740#0#HTML" expanded="true" />
+            <element signature="e#740#746#0#HTML" expanded="true" />
+            <element signature="e#746#752#0#HTML" expanded="true" />
+            <element signature="e#752#758#0#HTML" expanded="true" />
+            <element signature="e#758#764#0#HTML" expanded="true" />
+            <element signature="e#764#770#0#HTML" expanded="true" />
+            <element signature="e#770#776#0#HTML" expanded="true" />
+            <element signature="e#776#782#0#HTML" expanded="true" />
+            <element signature="e#782#788#0#HTML" expanded="true" />
+            <element signature="e#788#794#0#HTML" expanded="true" />
+            <element signature="e#794#800#0#HTML" expanded="true" />
+            <element signature="e#800#806#0#HTML" expanded="true" />
+            <element signature="e#806#812#0#HTML" expanded="true" />
+            <element signature="e#812#818#0#HTML" expanded="true" />
+            <element signature="e#820#826#0#HTML" expanded="true" />
+            <element signature="e#826#832#0#HTML" expanded="true" />
+            <element signature="e#832#838#0#HTML" expanded="true" />
+            <element signature="e#838#844#0#HTML" expanded="true" />
+            <element signature="e#844#850#0#HTML" expanded="true" />
+            <element signature="e#850#856#0#HTML" expanded="true" />
+            <element signature="e#856#862#0#HTML" expanded="true" />
+            <element signature="e#862#868#0#HTML" expanded="true" />
+            <element signature="e#868#874#0#HTML" expanded="true" />
+            <element signature="e#874#880#0#HTML" expanded="true" />
+            <element signature="e#880#886#0#HTML" expanded="true" />
+            <element signature="e#886#892#0#HTML" expanded="true" />
+            <element signature="e#892#898#0#HTML" expanded="true" />
+            <element signature="e#898#904#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/apitest_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#351#357#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/apistep_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#351#357#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="e#341#347#1#HTML" expanded="true" />
+            <element signature="e#367#373#1#HTML" expanded="true" />
+            <element signature="e#393#399#1#HTML" expanded="true" />
+            <element signature="e#419#425#1#HTML" expanded="true" />
+            <element signature="e#494#500#0#HTML" expanded="true" />
+            <element signature="e#500#506#0#HTML" expanded="true" />
+            <element signature="e#536#542#1#HTML" expanded="true" />
+            <element signature="e#636#642#1#HTML" expanded="true" />
+            <element signature="e#711#717#0#HTML" expanded="true" />
+            <element signature="e#717#723#0#HTML" expanded="true" />
+            <element signature="e#753#759#1#HTML" expanded="true" />
+            <element signature="e#828#834#0#HTML" expanded="true" />
+            <element signature="e#834#840#0#HTML" expanded="true" />
+            <element signature="e#874#880#1#HTML" expanded="true" />
+            <element signature="e#949#955#0#HTML" expanded="true" />
+            <element signature="e#955#961#0#HTML" expanded="true" />
+            <element signature="e#995#1001#1#HTML" expanded="true" />
+            <element signature="e#1101#1107#0#HTML" expanded="true" />
+            <element signature="e#1107#1113#0#HTML" expanded="true" />
+            <element signature="e#1147#1153#1#HTML" expanded="true" />
+            <element signature="e#1247#1253#1#HTML" expanded="true" />
+            <element signature="e#1353#1359#0#HTML" expanded="true" />
+            <element signature="e#1359#1365#0#HTML" expanded="true" />
+            <element signature="e#1395#1401#1#HTML" expanded="true" />
+            <element signature="e#1495#1501#1#HTML" expanded="true" />
+            <element signature="e#1601#1607#0#HTML" expanded="true" />
+            <element signature="e#1607#1613#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

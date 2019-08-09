@@ -42,4 +42,5 @@ urlpatterns = [
     path('webcasestep_manage/', webviews.webcasestep_manage),
     path ('test_report/', views.test_report),
     path('apptest_report/', appviews.apptest_report),
+    path('left/', views.left),
 ]
